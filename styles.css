@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-image: url(./assets/tbbt_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;      
+}
+
+.container::before{
+    opacity: 0.5;
+}
+
+h1 {
+    margin-bottom: 15px;
+    color: #407CAE;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 5px;
+    font-size: 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.pedra {
+    background-color: #D6E2F2;
+}
+
+.papel {
+    background-color: #FFACFD;
+}
+
+.tesoura {
+    background-color: #8E5CB4;
+}
+
+.lagarto {
+    background-color: #FFACFD;
+}
+
+.spock {
+    background-color: #D6E2F2;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.your-score {
+    color: #407CAE;
+}
+
+.machine-score {
+    color:  #FFACFD;
+}
+
+.result {
+    color: #8E5CB4;
+}
