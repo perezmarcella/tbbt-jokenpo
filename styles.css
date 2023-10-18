@@ -82,9 +82,40 @@ p {
 }
 
 .machine-score {
-    color:  #FFACFD;
+    color: #407CAE;;
 }
 
 .result {
     color: #8E5CB4;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-size: auto;
+    }
+
+    .container {
+        max-width: 70%;
+        height: 80%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    button {
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 15px;
+    }
 }
